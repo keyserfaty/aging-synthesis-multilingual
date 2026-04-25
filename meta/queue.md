@@ -278,7 +278,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-011
   added_at: 2026-04-25T00:00:00Z
-  notes: "Tea polyphenols overlap with EGCG (Round 1); record under tea_polyphenols pending glossary decision on splitting/merging entries."
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: egcg
+  notes: "Tea polyphenols overlap with EGCG (Round 1); recorded under egcg page with class-vs-isolate caveat. Held at Q1 (citation pending primary CNKI retrieval); not load-bearing for verdict. Verdict unchanged."
 
 - id: zh-2026-04-25-012
   language: zh

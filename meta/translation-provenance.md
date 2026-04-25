@@ -209,8 +209,8 @@ Each entry has:
   translator: claude-opus-4-7
   translation_date: 2026-04-25
   q_flag: Q1
-  cited_in: []
-  notes: "Sweep zh 2026-04-25 #011. Citation needs primary CNKI retrieval."
+  cited_in: [egcg]
+  notes: "Sweep zh 2026-04-25 #011. Citation needs primary CNKI retrieval. Cited in egcg multilingual page 2026-04-25 as non-load-bearing evidence (verdict unchanged); held at Q1 — not promoted because primary record could not be verified, only the title is linguistically clean. Glossary: 茶多酚 = tea polyphenols (catechin-rich extract; EGCG is dominant single component), mapped to egcg page with class-vs-isolate caveat."
 
 - id: zh-012
   language: zh
