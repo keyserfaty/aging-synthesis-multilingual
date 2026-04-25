@@ -61,6 +61,17 @@ Append-only log of weekly ES + FR sweeps run per `meta/prompts/language-sweep-es
 - **Errors logged:** none new.
 - **Files touched:** `meta/queue.md`, `meta/translation-provenance.md`, `meta/sweep-log-es-fr.md`.
 
+### 2026-04-25 — sixth same-day re-run (no-op)
+
+- **Window:** since prior entry below, same calendar day.
+- **Reachable sources this run:** PubMed E-utilities (lang:spa OR lang:fre, reldate=7). LILACS / SciELO / Dialnet / Pascal-Francis / HAL / Cairn unchanged (still unreachable).
+- **PubMed candidates surfaced:** 6 — PMIDs 42028941, 42028932, 42025233, 42024694, 42024072, 42024067. Identical idlist to the fourth/fifth same-day runs; no index turnover since earlier today. 42024694 already queued as `es-fr-2026-04-25-001`; the other five rejected with reasons recorded above.
+- **Items added to queue:** 0.
+- **Rejections:** none new.
+- **Threshold discipline:** zero additions; thresholds held per hard rule. Bound is corpus turnover, not threshold strictness.
+- **Errors logged:** none new.
+- **Files touched:** only `meta/sweep-log-es-fr.md`.
+
 ### 2026-04-25 — fifth same-day re-run (no-op)
 
 - **Window:** since prior entry above, same calendar day.
