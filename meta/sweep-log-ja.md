@@ -75,3 +75,16 @@ Append-only log of weekly Japanese-language sweeps. Each entry records: timestam
 - **Items rejected**: 0 new.
 - **Notes**: Same-day no-op. Thresholds unchanged. Database access (J-STAGE/CiNii/ICHUSHI) remains the binding constraint. Sweep exited clean.
 - **Translator model on standby**: claude-opus-4-7 (not invoked).
+
+### 2026-04-25 (sixth sweep, same-day re-run)
+
+- **Sweep window**: 2026-04-18 through 2026-04-25 (unchanged; no new days elapsed).
+- **Sources reached**:
+  - PubMed `lang:jpn` — same 3 in-window hits (PMIDs 42021117, 42021115, 42002929); all previously rejected upstream.
+  - J-STAGE, CiNii, ICHUSHI — still no API/MCP access.
+  - Google Scholar (jpn filter), bioRxiv/medRxiv — no new in-window aging-intervention candidates.
+- **Items found**: 0 new.
+- **Items added to queue**: 0.
+- **Items rejected**: 0 new.
+- **Notes**: Same-day no-op. Thresholds unchanged. Database access (J-STAGE/CiNii/ICHUSHI) remains the binding constraint. Sweep exited clean.
+- **Translator model on standby**: claude-opus-4-7 (not invoked).
