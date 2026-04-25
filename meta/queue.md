@@ -337,4 +337,29 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   processed_at: 2026-04-25T00:00:00Z
   target_page: deferred-below-threshold
   notes: "STRONG CAVEAT: only press-release-level reporting located. Composite endpoint plus telomerase claim are red flags. Section 6 fails: 1 source at press-release type (`other`), Q1. Hold until peer-reviewed primary publication retrieved at Q2+. No page built."
+
+- id: es-fr-2026-04-25-001
+  language: es
+  intervention_normalized: pan_err_agonist_slu_pp
+  intervention_native: "Agonistas pan-ERR (SLU-PP-332, SLU-PP-915)"
+  intervention_glossary_id: pan_err_agonist_slu_pp
+  source:
+    title_es_or_fr: "Activación Farmacológica de ERRα/β/γ como Mimético del Ejercicio: Aplicaciones Terapéuticas Potenciales"
+    title_en: "Pharmacological Activation of ERRα/β/γ as an Exercise Mimetic: Potential Therapeutic Applications"
+    authors: "de Souza-Lima J, Astrosa-Martin BD, Galaz-Rodríguez CA, Silva-Bernal JE, Orellana-Pizarro LI, Mena-Díaz CA"
+    year: 2026
+    venue: "Rev Med Chil 154(2):237-245"
+    url_or_doi: "10.4067/s0034-98872026000200237"
+    type: abstract
+  study:
+    model: mouse
+    n: "systematic review of preclinical animal/cell studies, 2020-2024"
+    endpoint: "Energy metabolism, muscle fiber typing, endurance, adiposity, glycemic control, renal aging (mitochondrial function, inflammation)"
+    claimed_effect: "Pan-ERR agonists SLU-PP-332/SLU-PP-915 induce exercise-like gene programs (Ddit4, Slc25a25), enhance fatty-acid oxidation, increase type IIa fibers, improve endurance, reduce adiposity, restore mitochondrial function and reduce inflammation in aging kidneys; no evident toxicity"
+  evidence_tier_estimate: T1
+  newly_surfaced: true
+  q_flag: Q1
+  provenance_id: es-fr-001
+  added_at: 2026-04-25T00:00:00Z
+  notes: "Systematic review (not primary data) of preclinical mouse/cell evidence on pan-ERR agonists as exercise mimetics. Renal-aging endpoint and mitochondrial restoration are the geroscience-relevant signals; rest is metabolic-disease framing. Tier T1 reflects that underlying primary evidence is preclinical animal work; review status itself does not raise the tier. No human data. Do not promote until primary preclinical citations are retrieved at Q2+."
 ```

@@ -270,6 +270,20 @@ Each entry has:
   q_flag: Q1
   cited_in: []
   notes: "Sweep zh 2026-04-25 #012. Press-release only; primary publication not yet located. Do not cite in verdict."
+
+- id: es-fr-001
+  language: es
+  source_url_or_doi: "10.4067/s0034-98872026000200237"
+  source_title_native: "Activación Farmacológica de ERRα/β/γ como Mimético del Ejercicio: Aplicaciones Terapéuticas Potenciales"
+  source_title_en: "Pharmacological Activation of ERRα/β/γ as an Exercise Mimetic: Potential Therapeutic Applications"
+  authors: "de Souza-Lima J, Astrosa-Martin BD, Galaz-Rodríguez CA, Silva-Bernal JE, Orellana-Pizarro LI, Mena-Díaz CA"
+  year: 2026
+  type: abstract
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q1
+  cited_in: []
+  notes: "Sweep es+fr 2026-04-25 #4 (first non-zero ES yield). Rev Med Chil systematic review of pan-ERR agonists as exercise mimetics; PubMed-indexed publisher-provided English abstract used as translation surface. Glossary: 'mimético del ejercicio' = exercise mimetic; ERRα/β/γ = estrogen-related receptors α/β/γ (orphan nuclear receptors). Newly surfaced intervention class (SLU-PP-332/SLU-PP-915) — not in Round 1 intervention pages."
 ```
 
 ## Glossary cross-references
