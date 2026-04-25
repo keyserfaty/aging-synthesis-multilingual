@@ -76,3 +76,12 @@ Append-only log of `language-sweep-de` runs.
   items_added: 0
   items_rejected: 0
   notes: "Same-day re-run #7 within the same 7-day window. No new in-scope candidates since prior runs today. Exiting clean per prompt rules — no threshold lowering. Other DE-language databases remain unreachable."
+
+- timestamp: 2026-04-26T00:30:00Z
+  window: 2026-04-19 to 2026-04-26 (re-run #8; effectively same window as prior same-day runs)
+  sources_attempted: [PubMed lang:ger]
+  sources_unreachable: [LIVIVO, GMS, DIMDI, Google Scholar, bioRxiv/medRxiv (no API/MCP access)]
+  items_found: 0
+  items_added: 0
+  items_rejected: 0
+  notes: "Same-window no-op. No new in-scope candidates since prior runs. Exiting clean per prompt rules — no threshold lowering. Other DE-language databases remain unreachable."
