@@ -40,3 +40,12 @@ Append-only log of `language-sweep-de` runs.
   items_added: 0
   items_rejected: 0
   notes: "Same-day re-run #3 within the same 7-day window. PubMed lang:ger query for aging-intervention terms returned zero results. No new candidates surfaced since prior run at 12:00:00Z. Exiting clean per prompt rules — no threshold lowering. Other DE-language databases remain unreachable."
+
+- timestamp: 2026-04-25T20:00:00Z
+  window: 2026-04-18 to 2026-04-25 (re-run #4; same window)
+  sources_attempted: [PubMed lang:ger]
+  sources_unreachable: [LIVIVO, GMS, DIMDI, Google Scholar, bioRxiv/medRxiv (no API/MCP access)]
+  items_found: 0
+  items_added: 0
+  items_rejected: 0
+  notes: "Same-day re-run #4 within the same 7-day window. No new in-scope candidates since prior runs today. Exiting clean per prompt rules — no threshold lowering. Other DE-language databases remain unreachable."
