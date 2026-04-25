@@ -84,6 +84,9 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-003
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: astragalus
 
 - id: zh-2026-04-25-004
   language: zh
@@ -108,6 +111,9 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-004
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: astragalus
 
 - id: zh-2026-04-25-005
   language: zh
@@ -132,6 +138,9 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-005
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: astragalus
 
 - id: zh-2026-04-25-006
   language: zh

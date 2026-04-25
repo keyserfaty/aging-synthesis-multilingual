@@ -98,7 +98,22 @@ Each entry has:
   translation_date: 2026-04-25
   q_flag: Q1
   cited_in: []
-  notes: "Sweep zh 2026-04-25 #003."
+  notes: "Sweep zh 2026-04-25 #003. Superseded by zh-003-r2 after back-translation."
+
+- id: zh-003-r2
+  language: zh
+  source_url_or_doi: "PMID:34962345"
+  source_title_native: "黄芪多糖通过自噬通路缓解肝细胞衰老"
+  source_title_en: "Astragalus polysaccharide alleviated hepatocyte senescence via autophagy pathway"
+  authors: "(Chinese group)"
+  year: 2022
+  type: abstract
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q2
+  cited_in: [astragalus]
+  notes: "Q1→Q2 promotion via back-translation cross-check 2026-04-25 (Anthropic Claude). Back-translation: 'Astragalus polysaccharide alleviates hepatocyte senescence through the autophagy pathway.' No semantic mismatch. Standard pharmacology terminology; 自噬通路 = autophagy pathway is unambiguous."
+  supersedes: zh-003
 
 - id: zh-004
   language: zh
@@ -112,7 +127,22 @@ Each entry has:
   translation_date: 2026-04-25
   q_flag: Q1
   cited_in: []
-  notes: "Sweep zh 2026-04-25 #004."
+  notes: "Sweep zh 2026-04-25 #004. Superseded by zh-004-r2 after back-translation."
+
+- id: zh-004-r2
+  language: zh
+  source_url_or_doi: "PMID:35925474"
+  source_title_native: "黄芪甲苷IV通过激活Parkin介导的线粒体自噬缓解血管平滑肌细胞衰老"
+  source_title_en: "Astragaloside IV alleviates senescence of vascular smooth muscle cells through activating Parkin-mediated mitophagy"
+  authors: "(Chinese group)"
+  year: 2022
+  type: abstract
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q2
+  cited_in: [astragalus]
+  notes: "Q1→Q2 promotion via back-translation cross-check 2026-04-25 (Anthropic Claude). Back-translation: 'Astragaloside IV alleviates vascular smooth muscle cell senescence through activation of Parkin-mediated mitophagy.' No semantic mismatch. 黄芪甲苷IV = Astragaloside IV; Parkin/线粒体自噬 = mitophagy unambiguous."
+  supersedes: zh-004
 
 - id: zh-005
   language: zh
@@ -126,7 +156,22 @@ Each entry has:
   translation_date: 2026-04-25
   q_flag: Q1
   cited_in: []
-  notes: "Sweep zh 2026-04-25 #005."
+  notes: "Sweep zh 2026-04-25 #005. Superseded by zh-005-r2 after back-translation."
+
+- id: zh-005-r2
+  language: zh
+  source_url_or_doi: "PMID:40284164"
+  source_title_native: "黄芪能否延缓细胞衰老？2015–2025系统综述"
+  source_title_en: "Astragalus membranaceus — Can It Delay Cellular Aging? Systematic review (2015–2025)"
+  authors: "(systematic review team)"
+  year: 2026
+  type: abstract
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q2
+  cited_in: [astragalus]
+  notes: "Q1→Q2 promotion via back-translation cross-check 2026-04-25 (Anthropic Claude). Back-translation: 'Can Astragalus membranaceus delay cellular senescence? A systematic review (2015–2025).' No semantic mismatch. Underlying primary studies cover TA-65, AS-IV, APS — pooling heterogeneous compounds is a methodological caveat noted on the astragalus page, not a translation issue."
+  supersedes: zh-005
 
 - id: zh-006
   language: zh
