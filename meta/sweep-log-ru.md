@@ -14,6 +14,17 @@ Append-only run log for the autonomous Russian aging-literature sweep.
 
 Next sweep: search window resumes from 2026-04-25.
 
+## 2026-04-25T22:??Z — sweep #6
+
+- Window: 2026-04-25 (since prior sweep #5 at 20:59Z same day) → 2026-04-25.
+- Sources attempted: PubMed (lang:rus), CyberLeninka (web search: геронтология / старение / продление жизни / антивозрастное / 2026), Google Scholar Russian-language. No MCP/API access to eLibrary.ru or CyberLeninka structured search.
+- Candidates surfaced: 0 interventional studies meeting Q1 schema. Same-day re-run; no new in-window results since prior pass.
+- Items added to queue: 0.
+- Items rejected: 0 (all results filtered at search-result review).
+- Hard-rule compliance: zero-item exit clean; thresholds not lowered.
+
+Next sweep: search window resumes from 2026-04-25.
+
 ## 2026-04-25T20:59Z — sweep #5
 
 - Window: 2026-04-25 (since prior sweep earlier same day) → 2026-04-25.
