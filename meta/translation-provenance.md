@@ -40,7 +40,22 @@ Each entry has:
   translation_date: 2026-04-25
   q_flag: Q1
   cited_in: []
-  notes: "Sweep zh 2026-04-25 #001."
+  notes: "Sweep zh 2026-04-25 #001. Superseded by zh-001-r2 after back-translation."
+
+- id: zh-001-r2
+  language: zh
+  source_url_or_doi: "10.1007/s10787-022-00976-2"
+  source_title_native: "小檗碱在中国代谢综合征患者炎症标志物上的影响：随机对照试验荟萃分析"
+  source_title_en: "The effects of berberine on inflammatory markers in Chinese patients with metabolic syndrome and related disorders: a meta-analysis of randomized controlled trials"
+  authors: "(multi-author meta-analysis, Chinese cohorts)"
+  year: 2022
+  type: abstract
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q2
+  cited_in: [berberine]
+  notes: "Q1→Q2 promotion via back-translation cross-check 2026-04-25 (Anthropic Claude). Back-translation: 'Effects of berberine on inflammatory markers in Chinese metabolic syndrome patients: meta-analysis of randomized controlled trials.' No semantic mismatch."
+  supersedes: zh-001
 
 - id: zh-002
   language: zh
@@ -54,7 +69,22 @@ Each entry has:
   translation_date: 2026-04-25
   q_flag: Q1
   cited_in: []
-  notes: "Aging Cell. Sweep zh 2026-04-25 #002."
+  notes: "Aging Cell. Sweep zh 2026-04-25 #002. Superseded by zh-002-r2 after back-translation."
+
+- id: zh-002-r2
+  language: zh
+  source_url_or_doi: "10.1111/acel.13060"
+  source_title_native: "小檗碱通过调节p16及周期蛋白延长小鼠寿命并改善细胞衰老"
+  source_title_en: "Berberine ameliorates cellular senescence and extends the lifespan of mice via regulating p16 and cyclin protein expression"
+  authors: "Dang Y, et al."
+  year: 2020
+  type: full-text
+  translator: claude-opus-4-7
+  translation_date: 2026-04-25
+  q_flag: Q2
+  cited_in: [berberine]
+  notes: "Q1→Q2 promotion via back-translation cross-check 2026-04-25 (Anthropic Claude). Back-translation: 'Berberine prolongs mouse lifespan and ameliorates cellular senescence by regulating p16 and cyclin proteins.' No semantic mismatch."
+  supersedes: zh-002
 
 - id: zh-003
   language: zh

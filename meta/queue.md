@@ -30,6 +30,9 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-001
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: berberine
 
 - id: zh-2026-04-25-002
   language: zh
@@ -54,6 +57,9 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-002
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: berberine
 
 - id: zh-2026-04-25-003
   language: zh
