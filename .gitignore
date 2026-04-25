@@ -1,0 +1,10 @@
+# Operational files (do not commit to public repo)
+meta/sweep-log-*.md
+meta/digest-log.md
+meta/translation-flags.md
+meta/track-*.flag
+meta/paper-assembled.flag
+meta/publication-prepared.flag
+.claude/
+site/
+*.log
