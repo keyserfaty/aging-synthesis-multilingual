@@ -165,6 +165,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-006
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Section 6 inclusion threshold fails: only 1 zh source, Q1, T2. Needs ≥2 sources with ≥1 at T3+ and ≥1 at Q2+. Held for future sweep accumulation; no page built."
 
 - id: zh-2026-04-25-007
   language: zh
@@ -189,6 +193,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-007
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Section 6 fails: zh-007+zh-008 give 2 sources but both T1, both Q1 — need ≥1 T3+ and ≥1 Q2+. No page built."
 
 - id: zh-2026-04-25-008
   language: zh
@@ -213,6 +221,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-008
   added_at: 2026-04-25T00:00:00Z
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Section 6 fails: paired with zh-007, but both T1/Q1 (invertebrate-only). No page built."
 
 - id: zh-2026-04-25-009
   language: zh
@@ -237,7 +249,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-009
   added_at: 2026-04-25T00:00:00Z
-  notes: "Hepatotoxicity caveat documented for the same compound class. Flag for Q2+ verification before any verdict."
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Hepatotoxicity caveat documented for the same compound class. Section 6 fails: 1 source, T2, Q1. No page built; flagged for Q2+ verification before any verdict."
 
 - id: zh-2026-04-25-010
   language: zh
@@ -262,7 +277,10 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-010
   added_at: 2026-04-25T00:00:00Z
-  notes: "Korean Red Ginseng (predicted #9) is partially overlapping species — keep separate intervention pages keyed by preparation; cross-link in glossary."
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Korean Red Ginseng (predicted #9) is partially overlapping species — keep separate intervention pages keyed by preparation; cross-link in glossary. Section 6 fails: 1 zh source, T2, Q1. No page built; await ko-language sweep accumulation."
 
 - id: zh-2026-04-25-011
   language: zh
@@ -315,5 +333,8 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: zh-012
   added_at: 2026-04-25T00:00:00Z
-  notes: "STRONG CAVEAT: only press-release-level reporting located. Composite endpoint plus telomerase claim are red flags. Hold below inclusion threshold until peer-reviewed primary publication is retrieved at Q2+. Do not propose page yet."
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "STRONG CAVEAT: only press-release-level reporting located. Composite endpoint plus telomerase claim are red flags. Section 6 fails: 1 source at press-release type (`other`), Q1. Hold until peer-reviewed primary publication retrieved at Q2+. No page built."
 ```
