@@ -73,3 +73,17 @@ Append-only log of weekly Korean-language sweeps. Schema per entry: timestamp, w
 - **Items added to queue**: 0
 - **Items rejected**: 0
 - **Notes**: No infrastructure change since 21:00Z sweep. Exiting clean with zero items per hard rule. KISS/RISS/KMbase MCP access remains the blocker for Korean coverage.
+
+### 2026-04-26T01:00:00Z — ko sweep #6 (database access unchanged)
+
+- **Window**: 2026-04-25 → 2026-04-26 (same-window re-run; prior sweeps at 12:00Z, 17:00Z, 19:00Z, 21:00Z, 23:00Z on 2026-04-25)
+- **Databases attempted**:
+  - KISS — unreachable (no MCP/API access provisioned)
+  - RISS — unreachable (no MCP/API access provisioned)
+  - KMbase — unreachable (no MCP/API access provisioned)
+  - PubMed `lang:kor` — no MCP tool available in this sweep environment
+  - Google Scholar / web fallback — no web search tool available in this sweep environment
+- **Items found**: 0
+- **Items added to queue**: 0
+- **Items rejected**: 0
+- **Notes**: No infrastructure change since 23:00Z sweep. Exiting clean with zero items per hard rule. KISS/RISS/KMbase MCP access remains the blocker for Korean coverage.
