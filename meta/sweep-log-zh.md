@@ -46,3 +46,17 @@ Append-only log of weekly Chinese-language aging sweeps. Each entry records time
 - **Hard rules respected**: did NOT lower thresholds, did NOT modify any intervention page, did NOT rate verdicts, did NOT add Q2+ items, did NOT exceed cap.
 - **Errors logged**: none.
 - **Next sweep due**: 2026-05-02 (unchanged).
+
+### 2026-04-25 — sweep #3 (same-day re-run)
+
+- **Window**: same-day re-invocation; sweeps #1 and #2 already covered through 2026-04-25.
+- **Sources queried**: none — same-day re-run, last-7-day window unchanged since sweeps #1/#2 this morning. CNKI / Wanfang / SinoMed / CMB direct API still unreachable; no infra change since earlier today.
+- **Candidates surfaced (gross)**: 0 new (above sweep #1/#2 baseline).
+- **Items added to queue**: 0.
+- **Translation provenance entries added**: 0.
+- **Items rejected**: n/a (nothing new to triage).
+- **Predictions touched**: none — queue unchanged.
+- **Anomalies / things to watch**: same as sweeps #1/#2 (zh-012 press-release caveat, He Shou Wu hepatotoxicity). No new anomalies.
+- **Hard rules respected**: did NOT lower thresholds, did NOT modify any intervention page, did NOT rate verdicts, did NOT add Q2+ items, did NOT exceed cap.
+- **Errors logged**: none.
+- **Next sweep due**: 2026-05-02 (unchanged).
