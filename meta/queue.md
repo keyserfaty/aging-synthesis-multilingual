@@ -361,5 +361,8 @@ Append-only. Page builder consumes from the top and marks items `consumed: true`
   q_flag: Q1
   provenance_id: es-fr-001
   added_at: 2026-04-25T00:00:00Z
-  notes: "Systematic review (not primary data) of preclinical mouse/cell evidence on pan-ERR agonists as exercise mimetics. Renal-aging endpoint and mitochondrial restoration are the geroscience-relevant signals; rest is metabolic-disease framing. Tier T1 reflects that underlying primary evidence is preclinical animal work; review status itself does not raise the tier. No human data. Do not promote until primary preclinical citations are retrieved at Q2+."
+  processed: true
+  processed_at: 2026-04-25T00:00:00Z
+  target_page: deferred-below-threshold
+  notes: "Systematic review (not primary data) of preclinical mouse/cell evidence on pan-ERR agonists as exercise mimetics. Renal-aging endpoint and mitochondrial restoration are the geroscience-relevant signals; rest is metabolic-disease framing. Tier T1 reflects that underlying primary evidence is preclinical animal work; review status itself does not raise the tier. No human data. Section 6 fails: 1 source, T1, Q1 — needs ≥2 sources with ≥1 T3+ and ≥1 Q2+. No page built; held for future sweep accumulation and primary preclinical citation retrieval at Q2+."
 ```
